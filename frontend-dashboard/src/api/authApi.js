@@ -5,4 +5,5 @@ const API = axios.create({
   withCredentials: true, // cookie support
 });
 
-export const loginUser = (data) => API.post("/login", data);
+export const loginUser = (data) => API.post("/auth/login", data);
+export const registerUser = (data) => API.post("/auth/register", data);

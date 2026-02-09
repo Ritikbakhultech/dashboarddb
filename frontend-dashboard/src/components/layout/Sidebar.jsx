@@ -9,6 +9,10 @@ const Sidebar = () => {
         </li>
 
         <li className="hover:bg-gray-700 p-2 rounded">
+          <Link to="/blogs">Blogs</Link>
+        </li>
+
+        <li className="hover:bg-gray-700 p-2 rounded">
           <Link to="/contacts">Contacts</Link>
         </li>
       </ul>
